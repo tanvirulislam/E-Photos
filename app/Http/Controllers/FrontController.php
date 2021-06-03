@@ -22,7 +22,9 @@ class FrontController extends Controller
 
         $product = Product::where('status', 1)->latest()->get();
 
-        return view('front.home', compact('category', 'product', 'subcategory'));
+        $photo = Product::where('status', 1)->first();
+
+        return view('front.home', compact('category', 'product', 'subcategory', 'photo'));
     }
 
     public function header(Request $request){

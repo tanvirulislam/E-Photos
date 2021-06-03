@@ -245,10 +245,7 @@ E-PHOTOS
 					<div class="padding-top-large">
 						<div class="padding-xlarge">
 							<div class="container-max center-align">
-								<picture>
-									<source srcset="{{asset('public/storage/uploads/image/water_mark')}}/{{$photo->image}}" type="image/webp" />
-										<img style="height:500px;" class="responsive-img container-max center-align" alt="open in example" src="{{asset('')}}{{$photo->image}}" data-t="integration-open-in-image" />
-									</picture>
+								
 								</div>
 							</div>
 						</div>
@@ -267,10 +264,7 @@ E-PHOTOS
 										</div>
 									</div>
 									<div class="column on-small-12 on-large-8">
-										<picture>
-											<source srcset="{{asset('public/storage/uploads/image/water_mark')}}/{{$photo->image}}" type="image/webp" />
-												<img style="height:600px;" src="{{asset('public/storage/uploads/image/water_mark')}}/{{$photo->image}}" class="responsive-img container-max center-align" alt="open in example" data-t="integration-open-in-image" />
-											</picture>
+										
 										</div>
 									</div>
 								</div>
